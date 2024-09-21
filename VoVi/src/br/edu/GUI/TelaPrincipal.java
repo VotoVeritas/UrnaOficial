@@ -26,7 +26,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        TelaFixa = new javax.swing.JPanel();
+        TitleGame = new javax.swing.JLabel();
+        TelaPrincipal = new javax.swing.JPanel();
+        Voto = new javax.swing.JLabel();
+        GameAwardsLogo = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         Teclado = new javax.swing.JPanel();
         Num1 = new javax.swing.JButton();
         Num2 = new javax.swing.JButton();
@@ -41,28 +49,99 @@ public class TelaPrincipal extends javax.swing.JFrame {
         Branco = new javax.swing.JButton();
         Corrige = new javax.swing.JButton();
         Confirma = new javax.swing.JButton();
-        jPanel3 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(800, 450));
         setPreferredSize(new java.awt.Dimension(800, 450));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setToolTipText("");
-        jPanel1.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
-        jPanel1.setMaximumSize(new java.awt.Dimension(420, 265));
-        jPanel1.setPreferredSize(new java.awt.Dimension(420, 265));
+        TelaFixa.setBackground(new java.awt.Color(255, 255, 255));
+        TelaFixa.setPreferredSize(new java.awt.Dimension(462, 90));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 420, Short.MAX_VALUE)
+        TitleGame.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/utils/TitleGame.png"))); // NOI18N
+
+        javax.swing.GroupLayout TelaFixaLayout = new javax.swing.GroupLayout(TelaFixa);
+        TelaFixa.setLayout(TelaFixaLayout);
+        TelaFixaLayout.setHorizontalGroup(
+            TelaFixaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TelaFixaLayout.createSequentialGroup()
+                .addComponent(TitleGame)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+        TelaFixaLayout.setVerticalGroup(
+            TelaFixaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TelaFixaLayout.createSequentialGroup()
+                .addComponent(TitleGame)
+                .addGap(0, 1, Short.MAX_VALUE))
+        );
+
+        TelaPrincipal.setBackground(new java.awt.Color(255, 255, 255));
+        TelaPrincipal.setToolTipText("");
+        TelaPrincipal.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
+        TelaPrincipal.setMaximumSize(new java.awt.Dimension(420, 265));
+        TelaPrincipal.setPreferredSize(new java.awt.Dimension(420, 265));
+
+        Voto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/utils/Voto.png"))); // NOI18N
+
+        GameAwardsLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/utils/GameAwards.png"))); // NOI18N
+
+        jLabel2.setFont(new java.awt.Font("Calibri", 1, 28)); // NOI18N
+        jLabel2.setText("The Game Awards");
+
+        jLabel3.setFont(new java.awt.Font("Calibri", 0, 24)); // NOI18N
+        jLabel3.setText("Categoria Jogo do Ano");
+
+        jLabel4.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jLabel4.setText("01 Marvel's Spider-Man 2 ");
+
+        jLabel5.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
+        jLabel5.setText("02 Resident Evil 4");
+
+        javax.swing.GroupLayout TelaPrincipalLayout = new javax.swing.GroupLayout(TelaPrincipal);
+        TelaPrincipal.setLayout(TelaPrincipalLayout);
+        TelaPrincipalLayout.setHorizontalGroup(
+            TelaPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TelaPrincipalLayout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(TelaPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TelaPrincipalLayout.createSequentialGroup()
+                        .addGroup(TelaPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Voto)
+                        .addGap(14, 14, 14))
+                    .addGroup(TelaPrincipalLayout.createSequentialGroup()
+                        .addComponent(GameAwardsLogo)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(TelaPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5))
+                        .addContainerGap(32, Short.MAX_VALUE))))
+        );
+        TelaPrincipalLayout.setVerticalGroup(
+            TelaPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, TelaPrincipalLayout.createSequentialGroup()
+                .addGroup(TelaPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TelaPrincipalLayout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(GameAwardsLogo))
+                    .addGroup(TelaPrincipalLayout.createSequentialGroup()
+                        .addGap(58, 58, 58)
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel5)))
+                .addGroup(TelaPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TelaPrincipalLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Voto)
+                        .addGap(15, 15, 15))
+                    .addGroup(TelaPrincipalLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel3)
+                        .addContainerGap(17, Short.MAX_VALUE))))
         );
 
         Teclado.setBackground(new java.awt.Color(0, 0, 0));
@@ -263,7 +342,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addGroup(TecladoLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Confirma, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         TecladoLayout.setVerticalGroup(
             TecladoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -297,30 +376,16 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         Branco.getAccessibleContext().setAccessibleDescription("");
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel3.setPreferredSize(new java.awt.Dimension(462, 90));
-
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 266, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 58, Short.MAX_VALUE)
-        );
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(70, Short.MAX_VALUE)
+                .addComponent(TelaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 268, Short.MAX_VALUE)
+                    .addComponent(TelaFixa, javax.swing.GroupLayout.DEFAULT_SIZE, 268, Short.MAX_VALUE)
                     .addComponent(Teclado, javax.swing.GroupLayout.DEFAULT_SIZE, 268, Short.MAX_VALUE))
                 .addGap(27, 27, 27))
         );
@@ -328,10 +393,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(TelaFixa, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
+                    .addComponent(TelaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Teclado, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE))
                 .addGap(50, 50, 50))
         );
@@ -426,6 +491,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton Branco;
     private javax.swing.JButton Confirma;
     private javax.swing.JButton Corrige;
+    private javax.swing.JLabel GameAwardsLogo;
     private javax.swing.JButton Num1;
     private javax.swing.JButton Num10;
     private javax.swing.JButton Num2;
@@ -437,7 +503,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton Num8;
     private javax.swing.JButton Num9;
     private javax.swing.JPanel Teclado;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel TelaFixa;
+    private javax.swing.JPanel TelaPrincipal;
+    private javax.swing.JLabel TitleGame;
+    private javax.swing.JLabel Voto;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     // End of variables declaration//GEN-END:variables
 }
