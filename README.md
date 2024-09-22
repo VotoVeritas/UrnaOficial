@@ -1,4 +1,4 @@
-# UrnaNova
+# Urna
 
 ## Código principal da Urna
 ### Todos os colaboradores tem acesso porém só é editado após aprovação do código teste.
