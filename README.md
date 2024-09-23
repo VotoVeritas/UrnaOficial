@@ -6,8 +6,6 @@ Ao longo dos anos, o evento tem enfrentado uma série de escândalos e acusaçõ
 
 Com a implementação desta urna, esperamos não apenas elevar a credibilidade do The Game Awards, mas também promover um ambiente mais confiável para todos os envolvidos.
 
-<br>
-
 ### Este repositório contém o código principal da Urna
 - Todos os colaboradores tem acesso porém só é editado após aprovação do código teste.
 <a target="_blank" href="https://github.com/VotoVeritas/UrnaTestes">Repositório dos códigos teste</a>
